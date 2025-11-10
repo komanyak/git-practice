@@ -5,5 +5,5 @@ PERSON = {
     "courses": ["Программирование", "ОС", "Сети"],
     "city": "Москва",  
     "year": 3,
-    "email": "alex@gmail.com"   # новое поле
+    "email": "alexkom@gmail.com"   
 }
