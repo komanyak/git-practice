@@ -21,6 +21,10 @@ jobs:
 
     - name: Install dependencies
       run: pip install -r requirements.txt || echo "No requirements.txt found"
-
+    
     - name: Run main.py
       run: python main.py
+
+    - name: Generate documentation
+      run: python generate_docs.py
+
